@@ -6,7 +6,7 @@ $query = "UPDATE addbanners set status = 0";
 $res = mysqli_query($conn, $query);
 
 
-$query = "UPDATE addbanners set status = 1 WHERE id='$id'";
-$res = mysqli_query($conn, $query);
+$query = "UPDATE addbanners SET status = 1 WHERE id='$id'";
+$result = mysqli_query($conn, $query);
 // REDIRECT
-header("Location: ../backend/allBanners.php");
+header("location:../backend/allBanners.php");

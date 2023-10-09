@@ -1,5 +1,6 @@
 <?php
-include "./backend_inc/header.php"
+include "./backend_inc/header.php";
+
 ?>
 
 

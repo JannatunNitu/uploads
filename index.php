@@ -8,6 +8,10 @@ $banners = mysqli_fetch_assoc($res);
 // var_dump($banners['title'])
 ?>
 
+  <?php
+  if(count($banners) > 0){
+
+  ?>
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center section-bg">
     <div class="container">
@@ -29,6 +33,9 @@ $banners = mysqli_fetch_assoc($res);
     </div>
   </section><!-- End Hero Section -->
 
+  <?php
+  }
+  ?>
   <main id="main">
 
     <!-- ======= About Section ======= -->
