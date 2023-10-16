@@ -24,7 +24,7 @@ if(!is_dir($path)){
 }
 // move_uploaded_file($_FILES['fileToUpload']['tmp_name'], $file_location)
 $uploaded_file = move_uploaded_file($bannerImg['tmp_name'], "../uploads/banners/$file_name");
-print_r($uploaded_file);
+// print_r($uploaded_file);
 
 if($uploaded_file){
     // "INSERT INTO `addbanners`(`id`, `title`, `detail`, `cta-title`, `cta-link`, `video-link`, `banner-img`, `status`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]','[value-8]')"

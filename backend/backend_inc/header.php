@@ -79,6 +79,31 @@ if (!isset($_SESSION['auth'])) {
                     </div>
                 </div>
             </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#aboutItems"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-user"></i>
+                    <span>Abouts</span>
+                </a>
+                <div id="aboutItems" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="./addAbout.php">Add about</a>
+                        <a class="collapse-item" href="./allAbouts.php">All about</a>
+                    </div>
+                </div>
+            </li><li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#categoriesItem"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-wrench"></i>
+                    <span>Menu Categories</span>
+                </a>
+                <div id="categoriesItem" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="./addCategory.php">Add categories</a>
+                        <a class="collapse-item" href="./allFoodCategory.php">All food items</a>
+                    </div>
+                </div>
+            </li>
 
 
         </ul>
